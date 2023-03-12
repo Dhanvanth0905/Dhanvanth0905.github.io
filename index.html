@@ -1,160 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Portfolio Website HTML CSS JS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type = "x-icon" href="YDR.png">
+</head>
+<body>
+    <header class= "header">
+        <a href="#" class="logo">Portfolio.
+        </a>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-    <title>My Profile</title>
-  <style>
-    body{
-      background: url("http://www.fotolip.com/wp-content/uploads/2016/05/Tumblr-HD-Wallpapers-7.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-  </style>  
-  </head>
-  
-    <center><h1>Profile Page</h1></center>
+        <nav class="navbar">
+
+            <a href="#home"  class="active">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+    </header>
+
     
-    <hr size="5">
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <picture> <img src="Profile_pic.jpeg" width = "250" height = "250" align= "center" alt="My Profile picture"></picture>
-            <p align="center">
-                <div align="margin-left"  class="icons-social" style="margin-left: 10px;">
-                    <a style="margin-left: 10px;"  target="_blank" href="https://www.linkedin.com/in/dhanvanth-reddy-yerramreddy-444625214/">
-                        <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
-                    <a style="margin-left: 10px;" target="_blank" href="https://github.com/Dhanvanth0905">
-                    <img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
-                    <a style="margin-left: 10px;" target="_blank" href="https://instagram.com/dhanvanth_09">
-                        <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
-                    <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/reddy_dhanvanth">
-                        <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" ></a>
-                  </div>
-            
-            </p> 
-              
-          </div>
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      About Me 
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong><p>
-                        Name : Yerramreddy Dhanvanth Reddy
-                        <br>
-                        Age  : 20
-                        <br>
-                        Gender : Male
-                        <br>
-                        Contact : 9347462470
-                        <br>
-                        Blood Group : AB+
-                        <br>
-                        EMail : dhanvathyerramreddy09@gmail.com
-                        <br>
-                        College : Amrita School Of Engineering
-                        <br>
-                        Place : Hyderabad , Telangana
-                        <br>
-                        Hobbies : Reading Books , Playing games and Exploring World
-                        <br> 
-                        Job : Student
-                        <br>
-                        Skills : HTML , Java , Python , Git , Latex , Linux
-                    </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Profile
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>An Innovative , astute , diligent individual and a passionate fostered team performer with an established set of
-                        skills with technical expertise in Python , Java , HTML and practical expertise in tackling the Artificial
-                        Intelligence , Machine Learning and Deep Learning problems and an acceptable knowledge in Web
-                        Development.
-                        </strong>
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                      Projects
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                              Gesture Controlled Robot Using Raspberry Pi,
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                              <strong>Implemented a robot made using Raspberry that can be controlled using a glove
-                                made using Arduino and various sensors as a part of Robotic Operating System
-                                Project.
-                                </strong> 
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                              HTTP Proxy Server implemented via Python Socket Programming
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
-                              <strong>Implemented a HTTP proxy server implemented via python socket programming
-                                with caching, blacklisting, authentication functionality as a part of Introduction to
-                                Computer Networks Project.</strong>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="accordion-item">
-                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                              Twitter Sentiment Analysis using Hadoop
-                            </button>
-                          </h2>
-                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
-                              <strong>Implemented a big data project by analyzing the sentiment or emotion of the tweet
-                                as a part of Big Data Analytics Project.
-                                </strong> 
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                        
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-          </div>
+
+    <section class="home" id = "home">
+        <div class="home-content">
+            <h3>Hello, Its's Me</h3>
+            <h1>Y Dhanvanth Reddy </h1>
+            <h3>And I'm  <span class="multiple-text"></span></h3>
+            <p>An Innovative , astute , diligent individual and a passionate fostered team performer with an established set of
+                skills with technical expertise in Python , Java , HTML and practical expertise in tackling the Artificial
+                Intelligence , Machine Learning and Deep Learning problems and an acceptable knowledge in Web
+                Development.
+            </p>
+            <div class="social-media">
+                <a href="#" style="--i:6"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-github' ></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
         </div>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
+
+        <div class="home-img">
+            <img src="home-img.jpeg" id = 'im1' alt="">
+        </div>
+    </section>
+
+    <section class="about" id = "about">
+        <div class="about-img">
+            <img src="about-img.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>AI Enthusiast</h3>
+            <p>This is Y Dhanvanth Reddy and I am from Hyderabad.Presently I am pursuing my bachelor's in computer science
+                 with specialization in Artificial intelligence at Amrita Vishwa vidyapeetham,Amritapuri .Regarding my 
+                 technical skills I am comfortable with python , java and am familiar with ML,latex, operating systems ,
+                 networks , big data  and linux. My field of interest s are advanced networks , quantum computing and iot 
+                 and my hobbies are playing cricket,kabbadi and reading books.Considering my soft skills I am proficient 
+                 in problem solving, Critical Thinking , Emotional intelligence,Team work, Taking Responsibility , 
+                 Leadership and very good in communication skills.</p>
+        </div>
+
+        
+    </section>
+
+    <!-- skills section design  -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Front End Development</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-brain' ></i>
+                <h3>AI , ML and DL Problem Solver </h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-code' ></i>
+                <h3>Quantum Researcher</h3>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Deep-Learning-01.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Deep Learning</h4>
+                    <p>Presently working on Gaze Estimation using Convolution Neural Network 
+                        and making a comparitive dataset analysis. </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="Quantum_2.jpg" id = "height1" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quantum Computing</h4>
+                    <p>Presently doing research on various quantum computing algorithms . </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="front_end.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Front End Developer</h4>
+                    <p>Presently working on various insights of Web Development using HTML,CSS and JS</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p> @ Copyright & copy ; 2023 by Y.Dhanvanth Reddy | All Rights Reserved.</p>
+        </div>
+
+        <div class = "footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
+    
+    
+</body>
 </html>
